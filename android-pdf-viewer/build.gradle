@@ -8,14 +8,14 @@ group "com.github.lion1988dev"
 android {
     namespace "com.github.barteksc.pdfviewer"
 
-    compileSdk rootProject.tools.compileSdk
+    compileSdk 35
 
     defaultConfig {
-        minSdk rootProject.tools.minSdk
-        targetSdk rootProject.tools.targetSdk
+        minSdk 26
+        targetSdk 35
 
-        versionCode rootProject.tools.versionCode
-        versionName "${rootProject.tools.versionName}"
+        versionCode 3
+        versionName "3.2.4"
     }
 
     buildTypes {
